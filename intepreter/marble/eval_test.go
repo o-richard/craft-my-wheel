@@ -41,9 +41,6 @@ func TestEval(t *testing.T) {
 			if len(actualErrors) != 0 {
 				t.Fatalf("unexpected errors: %v", actualErrors)
 			}
-			if test.name == "string equality" {
-				println("here")
-			}
 			evaluated := eval.Eval(program, eval.NewEnvironment())
 			var actuatlOutput string
 			if evaluated != nil {

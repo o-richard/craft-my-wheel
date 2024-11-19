@@ -1,7 +1,6 @@
 package marble_test
 
 import (
-	"fmt"
 	"testing"
 
 	lexer "github.com/o-richard/intepreter/marble"
@@ -149,9 +148,6 @@ if (5 < 10) {
 
 	l := lexer.NewLexer([]byte(input))
 	for i, expectedToken := range expected {
-		if i == len(expected)-2 {
-			fmt.Printf("here")
-		}
 		actualToken := l.NextToken()
 
 		var invalid bool
