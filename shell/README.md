@@ -14,6 +14,15 @@
 - **Command Execution**: Handles both built-in commands and external program execution.
 - **Error Handling**: Provides user-friendly error messages for invalid commands or syntax errors.
 
+## TODO 
+
+- Variable Interpolation
+- Output redirection
+- Piping 
+- History
+- Job control
+- Auto completion
+
 ## Credits
 
 - Codecrafters
